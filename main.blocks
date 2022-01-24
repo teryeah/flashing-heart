@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="T0E/m-4Q$gBw5KYKYI4n" x="0" y="0"><statement name="HANDLER"><block type="radio_set_group" id="q=egV#rC8dKU8)HukswS"><value name="ID"><shadow type="math_number_minmax" id="#Pz1IpPu[y5?1[{V!Pw+"><mutation min="0" max="255" label="Id" precision="0"/><field name="SLIDER">1</field></shadow></value></block></statement></block><block type="device_forever" id="EPS^GCC^l6EmC6,JgjJ7" x="381" y="15"><statement name="HANDLER"><block type="device_show_leds" id="_p}=Y;ruZc09S%fcNy4X"><field name="LEDS">`
+        # . # . # 
+        . # . # . 
+        # . # . # 
+        . # . # . 
+        # . # . #
+        `</field><next><block type="device_show_leds" id="#)olTykBvG}vEATzrUKU"><field name="LEDS">`
+        . # . # . 
+        # . # . # 
+        . # . # . 
+        # . # . # 
+        . # . # .
+        `</field></block></next></block></statement></block><block type="device_button_event" id="yuJ^Jn-NoCf[8~KATEQI" x="22" y="140"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="radio_datagram_send" id="+{i([,5EZvmx7BccJep/"><value name="value"><shadow type="math_number" id="sQGH9jjjborM=uh36g-P"><field name="NUM">456</field></shadow></value></block></statement></block><block type="radio_on_number_drag" id="z+%$dMvGkHsAp[EMz/*|" x="6" y="284"><value name="HANDLER_DRAG_PARAM_receivedNumber"><shadow type="argument_reporter_number" id="rdomm2%h@AkMLO|Xf[,4"><field name="VALUE">receivedNumber</field></shadow></value><statement name="HANDLER"><block type="device_show_number" id="]@F,wG,+Y;ti.ecm_s0a"><value name="number"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="argument_reporter_number" id="v+#J,=+As-_O[2yn_LuT"><field name="VALUE">receivedNumber</field></block></value></block></statement></block></xml>
